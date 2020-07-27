@@ -1,0 +1,276 @@
+body{
+    background-color: whitesmoke;
+}
+a{
+    color:black !important;
+}
+.brand-logo{
+    margin: 0px 10px !important;
+}
+.authcard{
+    padding: 1% 5% !important;
+    text-align: center;
+    margin: 4% 12% !important;
+}
+.container{
+    margin-top: 20px !important;
+}
+
+h3{
+    text-align: center;
+}
+
+.btn{
+    color: white !important;
+
+}
+
+.link:hover{
+    border-bottom: 2px solid black;
+}
+
+.postcard{
+    margin: 4% auto !important;
+    width:60%;
+}
+.userDetails{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+}
+
+.userStats{
+    display: flex;
+}
+.userStats h6,h4,h5{
+    margin-left: 15px;
+    padding: 0;
+}
+
+.pic{
+    height: 160px;
+    width:160px;
+    margin-top: 15px;
+}
+
+.user{
+    display: flex;
+}
+
+.butn{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.posts{
+    width:21vw;
+    height: 300px;
+    margin: 5px;
+}
+.posts:hover{
+    opacity: 0.8;
+}
+.gallery{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.preloader-wrapper{
+    position: fixed;
+    top: 50%;
+    left: 48%;
+}
+
+.commentBy{
+    height: 20px;
+    width: 20px;
+    margin-right: 3px;
+}
+
+.postBy{
+    height: 38px;
+    width: 38px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+.showDetails{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding-top: 12px;
+    justify-content: space-between;
+}
+.showCommentDetails{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+input[type="file"] {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+  }
+
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(8, 93, 252) !important;
+    box-shadow: 0 1px 0 0 rgb(8, 93, 252)  !important;
+  }
+  .input-field input[type=password]:focus {
+    border-bottom: 1px solid rgb(8, 93, 252) !important;
+    box-shadow: 0 1px 0 0 rgb(8, 93, 252)  !important;
+  }
+  .input-field input[type=email]:focus {
+    border-bottom: 1px solid rgb(8, 93, 252) !important;
+    box-shadow: 0 1px 0 0 rgb(8, 93, 252)  !important;
+  }
+
+  .input-field input[type=text]:focus + label {
+    color:  rgb(8, 93, 252) !important;
+  }
+  .input-field input[type=password]:focus + label {
+    color:  rgb(8, 93, 252) !important;
+  }
+  .input-field input[type=email]:focus + label {
+    color:  rgb(8, 93, 252) !important;
+  }
+
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid rgb(8, 93, 252) !important;
+    box-shadow: 0 1px 0 0 rgb(8, 93, 252) !important;
+  }
+  .input-field input[type=email].valid {
+    border-bottom: 1px solid rgb(8, 93, 252) !important;
+    box-shadow: 0 1px 0 0 rgb(8, 93, 252) !important;
+  }
+  .input-field input[type=password].valid {
+    border-bottom: 1px solid rgb(8, 93, 252) !important;
+    box-shadow: 0 1px 0 0 rgb(8, 93, 252) !important;
+  }
+
+  h6{
+      padding: 8px;
+  }
+
+  .following-list{
+      overflow-y: auto;
+      padding-bottom: 10px;
+  }
+
+  .following-user{
+      display: flex;
+      align-items: center;
+      min-height: 60px !important;
+      cursor: pointer;
+  }
+
+  .following-user:hover{
+      background-color: whitesmoke;
+  }
+
+  .chat-card{
+      margin: 10px auto;
+      width:90%;
+      height: 550px;
+  }
+
+  .row .col.s9{
+      padding-left: 0px;
+  }
+
+  .chats{
+      display: flex;
+      flex-direction: column;
+      height: 420px;
+      overflow-y: auto;
+      margin: 5px;
+      width: 100%;
+      border: 1px solid lightgray;
+      border-radius: 8px;
+  }
+
+  .message{
+      width: fit-content;
+      border-radius: 8px;
+      padding: 5px 12px;
+      margin: 10px;
+      font-size: 18px;
+      max-width: 50%;
+  }
+
+  .leftmsg{
+    background-color: lightgray;
+  }
+  .rightmsg{
+    align-self: flex-end;
+    background-color: rgb(8, 93, 252);
+    color: white;
+  }
+  .preview{
+    width: 80%;
+    height: 500px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+  }
+  .profile-preview{
+    width: 160px;
+    height: 150px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+  }
+  .following-list-mobile{
+      display: none;
+  }
+  @media only screen and  (max-width:800px){
+    .postcard {
+        width: 100%;
+    }
+    .authcard{
+        margin: 0 !important;
+        padding-bottom: 20px !important;
+    }
+    .posts{
+        width:26vw;
+        height: 27vw;
+        margin: 3px;
+    }
+    .userDetails h4{
+        font-size: 24px;     
+    }
+    .userDetails h5{
+        font-size: 16px;     
+    }
+    .userDetails h6{
+        font-size: 12px;     
+    }
+    .userDetails label,button{
+        font-size: 11px !important;     
+    }
+    .pic{
+        width:21vw;
+        height:21vw;
+    }
+    .following-list{
+        display: none;
+    }
+    .chat-box{
+        width: 100% !important;
+    }
+    .send{
+        margin: 0 !important;
+    }
+    .following-list-mobile{
+        display: block;
+    }
+    .following-list-mobile ul{
+        overflow-x: auto;
+    }
+    .chat-card{
+        height: 700px;
+    }
+    .title{
+        font-size: 12px !important;
+    }
+  }
